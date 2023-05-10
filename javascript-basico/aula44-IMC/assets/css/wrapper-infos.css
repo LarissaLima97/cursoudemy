@@ -1,0 +1,12 @@
+.wrapper-infos {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(229, 207, 248, 0.671);
+    border-radius: 5px;
+}
+
+.wrapper-infos .lista {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
