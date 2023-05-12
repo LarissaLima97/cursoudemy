@@ -2,9 +2,7 @@ function calculaIMC (e) {
     e.preventDefault();
 
     const peso = Number(document.querySelector("#peso").value);
-    console.log("Valor do peso", typeof peso)
     const altura = Number(document.querySelector("#altura").value);
-    console.log("Valor da Altura", typeof altura)
     const resultado = document.querySelector("#resultado");
 
     if(typeof peso === 'number' && typeof altura === 'number'){
