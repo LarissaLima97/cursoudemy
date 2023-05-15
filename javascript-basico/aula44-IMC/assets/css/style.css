@@ -60,3 +60,12 @@ form button {
 form button:hover {
     background-color: var(--second-color);
 }
+
+.resultado, .bad {
+    background-color:rgba(97, 245, 83, 0.575);
+    padding: 10px 20px;
+}
+
+.bad {
+    background-color:rgba(236, 61, 55, 0.575);
+}
