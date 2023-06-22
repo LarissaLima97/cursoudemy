@@ -22,7 +22,7 @@ function getDayOfWeek(dayOfWeek) {
         return 'Sábado'
 
     default :
-        return ' '
+        return ' ';
     }
 }
 
@@ -65,7 +65,7 @@ function getMonthName(month) {
         return 'Dezembro';
 
     default :
-        return ' '
+        return ' ';
     }
 }
 
