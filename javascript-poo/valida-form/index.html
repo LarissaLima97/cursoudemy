@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Formulário de Cadastro</h1>
+        <div class="wrapper-infos">
+            <div>
+                <ul class="lista">
+                    <li>Nenhum campo pode estar vazio</li>
+                    <li>Usuário poderá conter letras e/ou números</li>
+                    <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+                    <li>Senha precisa ter entre 6 e 12 caracteres</li>
+                </ul>
+            </div>
+        </div>
+    
+        <form action="/" method="post" class="formulario">
+            <label  for="nome">Nome</label>
+            <input  type="text" name=""  class="nome validar" >
+
+            <label  for="sobrenome">Sobrenome</label>
+            <input  type="text" name=""  class=" sobrenome validar" >
+
+            <label  for="cpf">CPF</label>
+            <input  type="text" name=""  class="cpf validar" >
+
+            <label  for="usuario">Usuário</label>
+            <input  type="text" name=""  class="usuario validar" >
+
+            <label  for="senha">Senha</label>
+            <input  type="password" name=""  class="senha validar" >
+
+            <label  for="repetir-senha">Repetir senha</label>
+            <input  type="password" name=""  class="repetir-senha validar" >
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <section id="resultado"></section>
+    </section>
+    <script src="../validando-cpf.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
