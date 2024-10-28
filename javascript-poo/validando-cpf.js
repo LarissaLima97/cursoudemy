@@ -15,7 +15,7 @@ class ValidaCpf {
 
         const cpfValidado = cpfSemDigitos + primeiroDigito + segundoDigito; 
 
-        return cpfValidado === this.cpfLimpo ? 'CPF Válido' : 'CPF Inválido';
+        return cpfValidado === this.cpfLimpo ? true : false;
 
     }
 
@@ -38,6 +38,6 @@ class ValidaCpf {
     }
 }
 
-const cpf1 = new ValidaCpf('070.987.720-03');
-console.log(cpf1);
-console.log(cpf1.validaCpf());
+// const cpf1 = new ValidaCpf('070.987.720-03');
+// console.log(cpf1);
+// console.log(cpf1.validaCpf());
